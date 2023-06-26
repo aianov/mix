@@ -13,8 +13,8 @@ const mixTeams = () => {
     const allNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
     const command1 = getRandomNumber2(allNumbers, 4)
     const command2 = allNumbers.filter(num => !command1.includes(num))
-    red.innerHTML = `${command1.join(", ")}`
-    blue.innerHTML = `${command2.join(", ")}`
+    red.innerHTML = `${command1.join(" ")}`
+    blue.innerHTML = `${command2.join(" ")}`
 }
 
 const getRandomNumber = (numbers) => {
