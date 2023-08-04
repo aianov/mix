@@ -192,3 +192,11 @@ body {
     height: 50%;
     background-color: rgba(0, 255, 21, 0.7);
 }
+
+/* MEDIA */
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 30px;
+    }
+}
